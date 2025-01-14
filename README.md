@@ -1,6 +1,7 @@
 # fighting-game--old-project-
 
 Welcome to the samurai fighting game project! This is a 2D 1v1 game with a samurai vibe.
+This project created in 2023
 
 ## Quick Start
 
