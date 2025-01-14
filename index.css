@@ -1,0 +1,85 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Solitreo', cursive;
+    font-size: 80px;
+  }
+
+
+/* game screen */
+.gameScreen {
+    position: relative;
+    display: inline-block;
+}
+
+.interface {
+    position:absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
+
+
+/* time Bar */
+.timer_Bar {
+    font-family: 'Iceberg', cursive;
+    display: flex;
+    background-color: wheat;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* player healthBar */  
+
+.player1_healthBar{
+    display: flex;
+    justify-content: flex-end;
+    position: relative; 
+    height: 30px; 
+    width: 100% 
+}
+
+
+.players_healthBar{
+    position: relative; 
+    height: 30px; 
+    width: 100%
+}
+
+.players_total_health {
+    background-color: yellow;
+    height: 30px;
+    width: 100%;
+}
+.player1_damage{
+    position: absolute;
+    background: blue;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.player2_damage{
+    position: absolute;
+    background: blue;
+    inset: 0;
+}
+
+/* game win or lose or tie text */
+
+.tie_text {
+    display: none;
+    position: absolute;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    inset: 0;
+}
